@@ -1,0 +1,40 @@
+body {
+    display:inline;
+    /* flex-wrap: wrap; */
+    margin: 0px;
+}
+
+#top-banner {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(12, 55, 120);
+    color: antiquewhite;
+    padding: 10px 0 10px 0;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#side-panel {
+    display: inline-block;
+    margin-left: 20px;
+    width: 300px;
+}
+
+form input {
+    width: 300px;
+}
+
+#search-btn {
+    margin: 20px 0px 20px 0px;
+    /* width: 200px; */
+    background-color: rgb(101, 154, 234);
+    color: antiquewhite;
+}
+
+.city-btn {
+    display: block;
+    width: 300px;
+    margin: 10px 0px;
+}
