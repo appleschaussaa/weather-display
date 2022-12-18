@@ -1,40 +1,106 @@
 body {
-    display:inline;
+    display:flex;
     /* flex-wrap: wrap; */
     margin: 0px;
 }
 
 #top-banner {
+    /* float: left; */
     text-align: center;
     width: 100%;
-    background-color: rgb(12, 55, 120);
+    position: fixed;
+    background-image: linear-gradient(to right, rgb(33, 98, 210), rgb(7, 7, 126));
     color: antiquewhite;
-    padding: 10px 0 10px 0;
+    margin-top: 0px;
+    padding: 15px 0 15px 0;
 }
 
-h2 {
+h2, h4 {
     font-weight: bold;
+}
+
+.city-selector {
+    /* margin-top: 5px; */
 }
 
 #side-panel {
     display: inline-block;
-    margin-left: 20px;
-    width: 300px;
+    margin-left: 10px;
+    /* max-width: 25%; */
+}
+
+#side-panel h2 {
+    margin-top: 80px;
+
 }
 
 form input {
-    width: 300px;
+    width: 350px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 20px;
+    
 }
 
-#search-btn {
-    margin: 20px 0px 20px 0px;
-    /* width: 200px; */
+.btn-primary {
+    border-radius: 8px;
+    margin: 20px 0px 5px 0px;
+    height: 35px;
+    width: 350px;
     background-color: rgb(101, 154, 234);
     color: antiquewhite;
+    border-bottom: 1px;
+}
+
+hr {
+    border: 1px solid black;
 }
 
 .city-btn {
     display: block;
-    width: 300px;
-    margin: 10px 0px;
+    border-radius: 4px;
+    height: 35px;
+    width: 350px;
+    margin: 15px 0px;
+    background-color: rgb(161, 161, 161);
+    border: 0px;
+}
+
+#city-temps {
+    display: inline-block;
+    flex: 2;
+    /* flex-wrap: wrap; */
+    /* width: 75%; */
+    /* height: 190px; */
+    margin: 90px 10px 0 15px;
+    /* padding-left: 5px; */
+}
+
+.current-city {
+    height:190px;
+    width: 875px;
+    border: solid #000;
+    border-width: 1.5px;
+    padding-left: 5px;
+}
+
+#five-day {
+    /* justify-content: center; */
+    position:fixed;
+    margin: 5px 0px 0px 0px;
+}
+
+.forcast-five {
+    display: inline-flex;
+
+}
+
+.each-card {
+    margin-right: 25px;
+}
+
+.card-body {
+    /* justify-content: space-between; */
+    background-color: rgb(47, 47, 66);
+    color: antiquewhite;
 }
