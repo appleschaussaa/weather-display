@@ -1,11 +1,11 @@
+/* Made sure flex was applied to the whole body and reset the margins to 0 */
 body {
     display:flex;
-    /* flex-wrap: wrap; */
     margin: 0px;
 }
 
+/* made sure the text was centered and the banner stretched across the whole screen, tweeked some position and formatting style, also applied a gradient to the background of the banner */
 #top-banner {
-    /* float: left; */
     text-align: center;
     width: 100%;
     position: fixed;
@@ -15,33 +15,31 @@ body {
     padding: 15px 0 15px 0;
 }
 
+/* made sure the font was bold for both h2 and h4 */
 h2, h4 {
     font-weight: bold;
 }
 
-.city-selector {
-    /* margin-top: 5px; */
-}
-
+/* changed the left margin to keep it off the edge of the screen and made sure the children elements were inline blocks */
 #side-panel {
     display: inline-block;
     margin-left: 10px;
-    /* max-width: 25%; */
 }
 
+/* added a hefty margin above the h2 in the side panel */
 #side-panel h2 {
     margin-top: 80px;
-
 }
 
+/* set the dimensions of the input form as well as rounding the edges on the border and changing the font size */
 form input {
     width: 350px;
     height: 45px;
     border-radius: 8px;
     font-size: 20px;
-    
 }
 
+/* smoothed the corners of the button, changed the dimensions, baackground color and font color */
 .btn-primary {
     border-radius: 8px;
     margin: 20px 0px 5px 0px;
@@ -49,13 +47,14 @@ form input {
     width: 350px;
     background-color: rgb(101, 154, 234);
     color: antiquewhite;
-    border-bottom: 1px;
 }
 
+/* added a black line in the seperater */
 hr {
     border: 1px solid black;
 }
 
+/* although they werent meant to always show... I changed the format and dimensions of each button, changed margins, background color and set the borders to 0 */
 .city-btn {
     display: block;
     border-radius: 4px;
@@ -66,41 +65,36 @@ hr {
     border: 0px;
 }
 
+/* made sure it appear inline to the right of the side-bar, and chaned the top/right/left margins */
 #city-temps {
     display: inline-block;
     flex: 2;
-    /* flex-wrap: wrap; */
-    /* width: 75%; */
-    /* height: 190px; */
     margin: 90px 10px 0 15px;
-    /* padding-left: 5px; */
 }
 
+/* set the height and width, made a border and added a little padding on the left */
 .current-city {
-    height:190px;
+    height:200px;
     width: 875px;
     border: solid #000;
     border-width: 1.5px;
     padding-left: 5px;
 }
 
+/* incresed the top margins a bit so the cards had some space */
 #five-day {
-    /* justify-content: center; */
-    position:fixed;
-    margin: 5px 0px 0px 0px;
+    margin-top: 5px;
 }
 
+/* made sure the cards were side by side */
 .forcast-five {
     display: inline-flex;
-
 }
 
-.each-card {
-    margin-right: 25px;
-}
-
+/* made the cards a little taller, gave each a little space, changed the background color and text color */
 .card-body {
-    /* justify-content: space-between; */
+    max-height: 220px;
+    margin-right: 25px;
     background-color: rgb(47, 47, 66);
     color: antiquewhite;
 }
