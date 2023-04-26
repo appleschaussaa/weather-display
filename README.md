@@ -33,8 +33,8 @@ Users should be able to:
 ​
 ### Links
 ​
-- GitHub repo URL: [appleschaussaa](https://github.com/appleschaussaa/weather-display)
-- Solution URL: [Deployed Weather Display](https://appleschaussaa.github.io/weather-display/)
+- Solution URL: (https://github.com/appleschaussaa/weather-display)
+- Live Site URL: (https://your-live-site-url.com)
 ​
 ## My process
 ​
