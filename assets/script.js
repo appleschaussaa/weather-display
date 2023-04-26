@@ -34,7 +34,7 @@ function currentCitySearch (event) {
 // Function to fetch weather data from API for city search
 function cityWeather() {
     var city = searchForm.val();
-    var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
     
     // fetching the API for current weather
     fetch(queryURL)
