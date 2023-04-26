@@ -27,12 +27,14 @@ Users should be able to:
 ​
 ### Screenshot
 ​
-![weather forcast screenshot](screenshot\weather-forcast-screenshot.png)
+![Lynnwood weather displayed](assets/screenshot/weather-dashboard-lynnwood.png)
+
+![Seattle weather displayed](assets/screenshot/weather-dashboard-seattle.png)
 ​
 ### Links
 ​
-- Solution URL: (https://github.com/appleschaussaa/weather-display)
-- Live Site URL: (https://your-live-site-url.com)
+- GitHub repo URL: [appleschaussaa](https://github.com/appleschaussaa/weather-display)
+- Solution URL: [Deployed Weather Display](https://appleschaussaa.github.io/weather-display/)
 ​
 ## My process
 ​
@@ -45,19 +47,18 @@ Users should be able to:
 ​
 ### What I learned
 ​
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-​
-This challenge was quite literally a challenge to complete. It was a great learning experience to actually work with a more complicated form of APIs and correctly implementing them into Javascript. Also I'm starting realize I need to reread the acceptance criteria as I thought the city buttons were supposed to be fixed to refer back to and not be stored locally to appear when searched.
+Upon going back to this project it was kind of stunning what we were supposed to be able to do with the current amount of knowledge I had at the time. I have been going back to this code on and off trying to get it to work while keeping as much of the old code as possible which was challenging because I did not even do the button events correctly let alone get the data to display correctly. The 5 day forecast turned out to be a total pain getting the data returned from the API to show inside the HTML card I already had. Eventually I stumbled upon the technique to just get it to display in a for loop and jquery to append it to the container which emptied everytime the function is called. I left the old HTML just because it looked nice than blank space.
 ​
 ### Continued development
 
-I will definitely be coming back to this challenge in my free time to get it as perfected as possible. I really like the use of Jquery as an alternated to plain Javascript. Even though it was not completed right now, I understand where I need to work on and improve. My lack of skill in creating Javascript is holding me back here even though I comprehend what needs to happen and could probably break down the full correct code.
+Not going to lie, I was a little burnt out by the time I got the searched city results to show that is was overwhelming to get the set city buttons to work so that would be my next objective to develop. Adding some spice to the design and media responsivness would be nice as well.
 ​
 ### Useful resources
-
-- (https://getbootstrap.com/docs/5.1/layout/grid/) - all of Bootstrap is very nice but when it comes to creating many container/rows/collumns this is very nice
-- (https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) - helped with color change in the top banner
-- (https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys) - life saver for figuring out the weather API
+- [Example resource 1](https://getbootstrap.com/docs/5.1/layout/grid/) - all of Bootstrap is very nice but when it comes to creating many container/rows/collumns this is very nice
+- [Example resource 2](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) - helped with color change in the top banner
+- [Example resource 3](https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys) - life saver for figuring out the weather API
+- [Example resource 4](https://www.w3schools.com/howto/howto_js_temperature_converter.asp) - After a bit of confusion I realized the temp was showing in Kelvin and this helped with converting it
+- [Example resource 5](https://www.w3schools.com/jquery/html_append.asp) - Helped give the idea to append as the data is looped
 ​
 ## Author
 
